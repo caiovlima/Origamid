@@ -1,0 +1,166 @@
+/*Estilos Gerais*/
+
+* {
+    font-weight: normal;
+    font-style: normal;
+}
+
+bode {
+    padding-bottom: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+cite {
+    display: block;
+}
+
+section {
+    padding: 0 40px 40px 40px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+/*Estilos Tipográficos*/
+
+/* cor */
+.exemplo-1 {
+}
+
+.exemplo-1 h2 {
+    color: #28cab9;
+}
+
+.exemplo-1 p {
+    color: rgb(255, 0, 0, 1);
+}
+
+/* Bold ou Itálico */
+.exemplo-2 h2 {
+    font-weight: bold;
+}
+
+.exemplo-2 p {
+    font-style: italic;
+}
+
+.exemplo-2 cite {
+    font-style: normal;
+}
+
+/* Tamanho e Altura da linha*/
+.exemplo-3 h2 {
+    font-size: 2em;
+}
+
+.exemplo-3 p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.exemplo-3 cite {
+    font-size: 0.875em;
+}
+
+/* Família Tipográfica  */
+.exemplo-4 h2 {
+    font-family: "Duke", "sans-serif";
+    font-size: 3em;
+}
+
+.exemplo-4 p {
+    font-family: "Arial";
+    line-height: 1.4em;
+}
+
+.exemplo-4 cite {
+}
+
+/* Variante */
+
+.exemplo-5 h2 {
+    font-variant: "Alegreya SC";
+}
+
+/* Font Geral */
+
+.exemplo-6 h2 {
+    font: bold 2em Georgia;
+}
+
+.exemplo-6 p {
+    font: 1.2em/1.4em Helvetica;
+}
+
+/* Alinhamento */
+.exemplo-7 h2 {
+    text-align: center;
+}
+
+.exemplo-7 p {
+    text-align: justify;
+}
+
+.exemplo-7 cite {
+    text-align: right;
+}
+
+/* Transformar */
+.exemplo-8 h2 {
+    text-transform: uppercase;
+}
+
+.exemplo-8 p {
+    text-transform: lowercase;
+}
+
+.exemplo-8 cite {
+}
+
+/* Identar */
+.exemplo-9 p {
+    text-indent: 20px;
+}
+
+.exemplo-9 cite {
+    margin-top: 1em;
+}
+
+/* Decoração */
+.exemplo-10 p {
+}
+
+.exemplo-10 h2 {
+    text-decoration: overline;
+}
+
+.exemplo-10 cite {
+    text-decoration: underline;
+}
+
+.exemplo-10 cite:after {
+}
+
+/* 11 Sombra */
+.exemplo-11 h2 {
+    text-shadow: 100px 1px 2px #000;
+}
+
+
+/* 12 tracking e quebra*/
+
+.exemplo-12 h2 {
+    letter-spacing: 1.em;
+}
+
+.exemplo-13 ul {
+    padding: 0px;
+    list-style-position: inside;
+}
