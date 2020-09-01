@@ -30,6 +30,7 @@ body {
 
 .planos {
 	background: url('../img/pattern.png'), linear-gradient(135deg, #01a7ec, #0186bd);
+	margin-bottom: 300px;
 }
 
 .planos .container {
@@ -149,9 +150,11 @@ body {
 	transform: translate(0, -120px);
 	transition: .3s;
 	opacity: 0;
+	visibility: hidden;
 }
 
 .modal-ativo .modal-wrapper {
+	visibility: visible;
 	transform: translate(0, 0px);
 	opacity: 1;
 }
@@ -190,4 +193,44 @@ button.btn {
 	padding: 10px 20px;
 	cursor: pointer;
 	margin: 20px 0;
+}
+
+.vantagens {
+
+}
+
+.vantagens h1 {
+	font-size: 1.75em;
+	color: #FF6200;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.vantagens h2 {
+	font-size: 1.25em;
+	color: #02a7ec;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.vantagens svg {
+	display: block;
+	max-width: 60px;
+	margin: 0 auto;
+}
+
+svg.animate path {
+	animation: svg-animate 2s forwards;
+}
+
+@keyframes svg-animate {
+	from {}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+.vantagens p {
+	text-align: center;
+	line-height: 1.4em;
 }
