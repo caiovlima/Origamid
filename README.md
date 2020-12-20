@@ -87,7 +87,6 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * [NodeJS](https://nodejs.org/en/)
-* [.Net Core](https://dotnet.microsoft.com/download/dotnet-core)
 * Optional [VSCode](https://code.visualstudio.com/)
 
 * npm
